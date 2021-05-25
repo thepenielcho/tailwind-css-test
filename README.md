@@ -1,19 +1,3 @@
-# tailwind-css-test
+# tailwind css 오류 없이 사용하기
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- vue create시 vue3, router 필수 설치, ESlint 설치하지 않기
