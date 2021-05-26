@@ -126,7 +126,7 @@
             border-t border-gray-500 text-gray-400 text-sm 
             flex-col md:flex-row max-w-6xl">
             <div class="mt-2">
-                Developed with Open Sources! Lots of Love.
+                © 2021 Peniel Cho. All Right Reserved. Published with GitHub Pages.
             </div>
 
             <!-- Required Unicons (if you want) -->
