@@ -1,153 +1,66 @@
 <template>
-    <!-- component -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@iconscout/unicons@3.0.6/css/line.css">
-
-<footer class="bg-gray-800 pt-10 sm:mt-10 pt-10">
-    <div class="max-w-6xl m-auto text-gray-800 flex flex-wrap justify-left">
-        <!-- Col-1 -->
-        <div class="p-5 w-1/2 sm:w-4/12 md:w-3/12">
-            <!-- Col Title -->
-            <div class="text-xs uppercase text-gray-400 font-medium mb-6">
-                Getting Started
+    <div class="p-2 flex items-center justify-center">
+        <div class="flex items-center">
+            <button class="rounded-full hover:bg-light p-3 flex items-center justify-center logo-box" type="button" name="button">
+                <img src="@/assets/logo.png" alt="logo" class="h-6 w-6">
+            </button>
+            <div>
+                <a href="#" class="logoTitle">penieLog</a>
             </div>
-
-            <!-- Links -->
-            <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
-                Installation
-            </a>
-            <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
-                Release Notes
-            </a>
-            <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
-                Upgrade Guide
-            </a>
-            <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
-                Using with Preprocessors
-            </a>
-            <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
-                Optimizing for Production
-            </a>
-            <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
-                Browser Support
-            </a>
-            <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
-                IntelliSense
-            </a>
         </div>
-
-        <!-- Col-2 -->
-        <div class="p-5 w-1/2 sm:w-4/12 md:w-3/12">
-            <!-- Col Title -->
-            <div class="text-xs uppercase text-gray-400 font-medium mb-6">
-                Core Concepts
+    </div>
+    <div class="navFoot flex items-center justify-center">
+        <div class="flex items-center">
+            <div class="flex navMenu">
+                Blog
             </div>
-
-            <!-- Links -->
-            <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
-                Utility-First
-            </a>
-            <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
-                Responsive Design
-            </a>
-            <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
-                Hover, Focus, & Other States
-            </a>
-            <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
-                Dark Mode
-            </a>
-            <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
-                Adding Base Styles
-            </a>
-            <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
-                Extracting Components
-            </a>
-            <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
-                Adding New Utilities
-            </a>
-        </div>
-
-        <!-- Col-3 -->
-        <div class="p-5 w-1/2 sm:w-4/12 md:w-3/12">
-            <!-- Col Title -->
-            <div class="text-xs uppercase text-gray-400 font-medium mb-6">
-                Customization
+            <div class="flex navMenu">
+                Projects
             </div>
-
-            <!-- Links -->
-            <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
-                Configuration
-            </a>
-            <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
-                Theme Configuration
-            </a>
-            <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
-                Breakpoints
-            </a>
-            <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
-                Customizing Colors
-            </a>
-            <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
-                Customizing Spacing
-            </a>
-            <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
-                Configuring Variants
-            </a>
-            <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
-                Plugins
-            </a>
-        </div>
-
-        <!-- Col-3 -->
-        <div class="p-5 w-1/2 sm:w-4/12 md:w-3/12">
-            <!-- Col Title -->
-            <div class="text-xs uppercase text-gray-400 font-medium mb-6">
-                Community
-            </div>
-
-            <!-- Links -->
-            <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
+            <div class="flex navMenu-last">
                 GitHub
-            </a>
-            <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
-                Discord
-            </a>
-            <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
-                Twitter
-            </a>
-            <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
-                YouTube
-            </a>
-        </div>
-    </div>
-
-    <!-- Copyright Bar -->
-    <div class="pt-2">
-        <div class="flex pb-5 px-3 m-auto pt-5 
-            border-t border-gray-500 text-gray-400 text-sm 
-            flex-col md:flex-row max-w-6xl">
-            <div class="mt-2">
-                © 2021 Peniel Cho. All Right Reserved. Published with GitHub Pages.
-            </div>
-
-            <!-- Required Unicons (if you want) -->
-            <div class="md:flex-auto md:flex-row-reverse mt-2 flex-row flex">
-                <a href="#" class="w-6 mx-1">
-                    <i class="uil uil-facebook-f"></i>
-                </a>
-                <a href="#" class="w-6 mx-1">
-                    <i class="uil uil-twitter-alt"></i>
-                </a>
-                <a href="#" class="w-6 mx-1">
-                    <i class="uil uil-youtube"></i>
-                </a>
-                <a href="#" class="w-6 mx-1">
-                    <i class="uil uil-linkedin"></i>
-                </a>
-                <a href="#" class="w-6 mx-1">
-                    <i class="uil uil-instagram"></i>
-                </a>
             </div>
         </div>
     </div>
-</footer>
+        <div class="copyright flex items-center justify-center">
+        <div class="flex items-center">
+            <div class="flex copyright-font">
+                © 2021 Peniel Cho. All Right Reserved. Published with Vue Press.
+            </div>
+        </div>
+    </div>
 </template>
+
+<style scoped>
+    .logo-box {
+        outline: none;
+    }
+    .logoTitle {
+        font-family: 'Inter';
+        font-weight: 700;
+        font-size: 20px;
+        padding-right: 12px;
+    }
+    .navMenu {
+        font-family: 'Inter';
+        font-weight: 400;
+        font-size: 0.9rem;
+        margin-right: 1rem;
+    }
+    .navMenu-last {
+        font-family: 'Inter';
+        font-weight: 400;
+        font-size: 0.9rem;
+    }
+    .navFoot {
+        padding: 0.5rem 1rem 2.5rem;
+    }
+    .copyright {
+        padding: 0rem 0rem 2rem;
+    }
+    .copyright-font {
+        font-family: 'Inter';
+        font-weight: 300;
+        font-size: 0.75rem;
+    }
+</style>

@@ -10,13 +10,13 @@
         </div>
         <div class="flex items-center">
             <div class="flex navMenu">
-                About
+                Blog
             </div>
             <div class="flex navMenu">
                 Projects
             </div>
             <div class="flex navMenu">
-                Blog
+                GitHub
             </div>
         </div>
     </div>
