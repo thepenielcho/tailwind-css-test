@@ -25,7 +25,7 @@
         <div class="copyright flex items-center justify-center">
         <div class="flex items-center">
             <div class="flex copyright-font">
-                © 2021 Peniel Cho. All Right Reserved. Published with Vue Press.
+                © 2021 Peniel Cho. All Rights Reserved. Published with VuePress.
             </div>
         </div>
     </div>

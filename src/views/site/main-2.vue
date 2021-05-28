@@ -39,6 +39,6 @@
 
 <style scoped>
     .post-box {
-        margin-bottom: 3rem;
+        margin-bottom: 2rem;
     }
 </style>
