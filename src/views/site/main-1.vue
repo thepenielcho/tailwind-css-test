@@ -2,7 +2,7 @@
     <div class="m-12 max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-4xl md:h-100 post-box">
     <div class="md:flex">
         <div class="md:flex-shrink-0">
-        <img class="h-80 w-full object-cover md:h-80 md:w-80" src="@/assets/expic0.jpg" alt="Man looking at item at a store">
+        <img class="w-full object-cover md:h-48 md:w-48" src="@/assets/expic0.jpg" alt="Man looking at item at a store">
         </div>
         <div class="p-8">
         <div class="tracking-wide text-sm text-indigo-500 font-semibold cont1">Featured</div> <span class="tracking-wide text-sm text-indigo-500 font-semibold cont1-1">&nbsp;</span>

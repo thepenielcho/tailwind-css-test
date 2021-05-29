@@ -41,4 +41,8 @@
     .post-box {
         margin-bottom: 2rem;
     }
+    .post-box:hover {
+        transform: scale(1.05);
+        transition: all 0.3s ease-in-out;
+    }
 </style>
