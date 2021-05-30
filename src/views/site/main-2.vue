@@ -45,6 +45,6 @@
     }
     .post-box:hover {
         transform: scale(1.05);
-        transition: all 0.3s ease-in-out;
+        transition: all 0.4s ease-in-out;
     }
 </style>
