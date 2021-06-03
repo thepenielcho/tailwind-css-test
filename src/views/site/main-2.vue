@@ -1,5 +1,5 @@
 <template>
-    <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl post-box">
+    <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl post-box post-box1">
     <a href="/about">
     <div class="md:flex">
         <div class="md:flex-shrink-0">
@@ -40,6 +40,9 @@
 </template>
 
 <style scoped>
+    .post-box1 {
+        margin-top: 1rem;
+    }
     .post-box {
         margin-bottom: 2rem;
     }
